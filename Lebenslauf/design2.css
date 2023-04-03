@@ -1,6 +1,6 @@
 body{
     font-style: italic;
-    font-family: cursive;
+    font-family: serif;
     color:white;
 }
 .row{
@@ -122,6 +122,7 @@ button{
 }
 a{
     color:white;
+    text-decoration: none;
 }
 .progress-bar{
   background:;
