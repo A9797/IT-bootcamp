@@ -1,4 +1,8 @@
-
+body{
+    font-style: italic;
+    font-family: cursive;
+    color:white;
+}
 .row{
     width: 100%;
     display: flex;
@@ -38,12 +42,21 @@
 
 /*############boxes##################*/
 div.box{
-    background-color: floralwhite;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 36px 24px 40px 24px;
+    margin: 20px;
+    text-align: center;
+    filter:  drop-shadow(0 0 0.75rem #BEBABA);
+}
+div.mainbox{
+      background-color: dimgray;
     border-radius: 10px;
     padding: 36px 24px 40px 24px;
     margin: 20px;
     text-align: center;
     filter:  drop-shadow(0 0 0.75rem #19184d);
+}
 }
 div.boxheader{
     background-color:transparent;
@@ -52,6 +65,10 @@ div.boxheader{
 div.boximg{
     background-color: transparent;
     filter:  drop-shadow(0 0 0.75rem #19184d);
+}
+div.box2{
+    margin-left:60%; 
+    margin-bottom:20%;
 }
 div.box img{
     border-radius: 100px;
@@ -64,15 +81,17 @@ div.kontakte{
     background-color: transparent;
 }
 
-
+*{
+    color="white";
+}
 
 
 
 button{
     font-size: 20px;
     font-weight: 700;
-    color:#19184d;
-    background-color: papayawhip;
+    color:;
+    background-color: transparent;
     padding: 15px 60px;
     border-radius: 10px;
     display: block;
@@ -91,19 +110,22 @@ button{
   height: 300%;
   background: lightblue;
   display: flex;
-  align-items: ccenter;
+  align-items: center;
   justify-content: center;
 }
 .skills h2{
   font-weight: 400;
   letter-spacing: 1px;
   margin-top: 5px;
-  color: black;
+  color: white;
   font-size: 16px
 }
+a{
+    color:white;
+}
 .progress-bar{
-  background: blue;
-  width: 600px;
+  background:;
+  width: 100%;
   height: 10px;
   border-radius: 5px;
 }
@@ -116,56 +138,56 @@ button{
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background: white;
+  background: transparent;
   float: right;
   margin-top: -15px;
   margin-right: -20px;
-  color:green;
+  color:white;
   display:flex;
   align-items: center;
   justify-content: center;
 }
 .html{
-  background: red;
+  background: gray;
   animation: html 1s linear forwards;
 }
 .css{
-  background: blue;
+  background: gray;
   animation: css 1s linear forwards;
 }
 .Java{
-  background:green;
+  background:gray;
   animation: Java 1s linear forwards;
 }
 .Python{
-  background: yellow ;
+  background: gray ;
   animation: Python 1s linear forwards;
 }
 .html span{
-  border: 1px solid red;
+  border: 1px solid white;
 }
 .css span{
-  border: 1px solid blue;
+  border: 1px solid white;
 }
 .Java span{
-  border: 1px solid green;
+  border: 1px solid white;
 }
 .Python span{
-  border: 1px solid yellow;
+  border: 1px solid white;
 }
 @keyframes html{
   100%{
-    width: 30%;
+    width: 60%;
   }
 }
 @keyframes css{
   100%{
-    width: 30%;
+    width: 60%;
   }
 }
 @keyframes Java{
   100%{
-    width: 10%;
+    width: 20%;
   }
 }
 @keyframes Python{
@@ -174,7 +196,10 @@ button{
   }
 }
 
-
+div.skills{
+    margin-left: 35%;
+    margin-right: 25%;
+}
 
 
 
