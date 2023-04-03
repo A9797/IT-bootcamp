@@ -1,0 +1,206 @@
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+* {
+    box-sizing: border-box;
+}
+*{ 
+    list-style: none;
+}
+.leftside-col{
+    margin-left:10%; 
+}
+.rightside-col{
+   float: right
+}
+
+/*############boxes##################*/
+div.box{
+    background-color: floralwhite;
+    border-radius: 10px;
+    padding: 36px 24px 40px 24px;
+    margin: 20px;
+    text-align: center;
+    filter:  drop-shadow(0 0 0.75rem #19184d);
+}
+div.boxheader{
+    background-color:transparent;
+    text-align: left;
+}
+div.boximg{
+    background-color: transparent;
+    filter:  drop-shadow(0 0 0.75rem #19184d);
+}
+div.box img{
+    border-radius: 100px;
+}
+ul li.kotakte {
+    list-style: none;
+}
+div.kontakte{
+    margin: auto;
+    background-color: transparent;
+}
+
+
+
+
+
+button{
+    font-size: 20px;
+    font-weight: 700;
+    color:#19184d;
+    background-color: papayawhip;
+    padding: 15px 60px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin: 5px;   
+}
+
+
+
+
+
+
+.container{
+  padding: 50px;
+  width: 100%;
+  height: 300%;
+  background: lightblue;
+  display: flex;
+  align-items: ccenter;
+  justify-content: center;
+}
+.skills h2{
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  color: black;
+  font-size: 16px
+}
+.progress-bar{
+  background: blue;
+  width: 600px;
+  height: 10px;
+  border-radius: 5px;
+}
+.progress-bar div{
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+}
+.progress-bar div span{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: white;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color:green;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.html{
+  background: red;
+  animation: html 1s linear forwards;
+}
+.css{
+  background: blue;
+  animation: css 1s linear forwards;
+}
+.Java{
+  background:green;
+  animation: Java 1s linear forwards;
+}
+.Python{
+  background: yellow ;
+  animation: Python 1s linear forwards;
+}
+.html span{
+  border: 1px solid red;
+}
+.css span{
+  border: 1px solid blue;
+}
+.Java span{
+  border: 1px solid green;
+}
+.Python span{
+  border: 1px solid yellow;
+}
+@keyframes html{
+  100%{
+    width: 30%;
+  }
+}
+@keyframes css{
+  100%{
+    width: 30%;
+  }
+}
+@keyframes Java{
+  100%{
+    width: 10%;
+  }
+}
+@keyframes Python{
+  100%{
+    width: 30%;
+  }
+}
+
+
+
+
+
+
+
+
+/*############mobile###############*/
+@media screen and (max-width: 680px){
+     .col-6,
+    .col-4,
+    .col-7,
+    .col-5
+    {
+        width: 100%;
+        margin: 0;
+    }
+     div.box{
+        padding: 5px;
+        display: block;
+    }
+    div.icon{
+        margin:10px;
+        width: 5o%;
+    }
+    div.leftside-col,
+    div.rightside-col{
+        margin:15px;
+    }
+}
