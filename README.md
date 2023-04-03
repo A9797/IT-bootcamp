@@ -79,6 +79,7 @@
         <div class="row">
                 <div class= "col-3 mobile">
                     <div class="box ahmadbox">
+                        <artickle>
                         <h1>Ahmad Gadoura</h1>
                             <ul>
                                 <div class="personalfhoto">
@@ -88,6 +89,7 @@
                                 <li>HTML5/CSS/<br>Javascript.</li>
                                 <li><a href="Lebenslauf/Ahmad_Gadoura_lebenslauf.html">Lebenslauf</a></li>
                             </ul>
+                        </artickle>
                     </div>
                 </div>
             <div class= "col-3 mobile">
