@@ -3,6 +3,9 @@ body{
     font-family: serif;
     color:white;
 }
+a{
+    color:darkblue;
+}
 *{
     box-sizing: border-box;
     list-style: none;
@@ -56,7 +59,7 @@ div.mainbox{
     padding: 36px 24px 40px 24px;
     margin: 20px;
     text-align: center;
-    filter:  drop-shadow(0 0 0.75rem #19184d);   
+    filter:  drop-shadow(0 0 0.1rem white);   
 }
 div.boxheader{
     background-color:transparent;
@@ -89,21 +92,13 @@ button{
     border-radius: 5px;
     text-align: center;
     margin: 5px; 
-    filter:  drop-shadow(0 0 0.75rem #BEBABA);
+    filter:  drop-shadow(0 0 0.1rem white);
 }
 button :hover{
     color: white;
 }
 /*#######skills#############*/
-.container{
-  padding: 50px;
-  width: 100%;
-  height: 300%;
-  background: lightblue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .skills h2{
   font-weight: 400;
   letter-spacing: 1px;
@@ -112,8 +107,7 @@ button :hover{
   font-size: 16px
 }
 div.skills{
-    margin-left: 35%;
-    margin-right: 25%;
+    width: 100%
 }
 .progress-bar{
   filter:  drop-shadow(0 0 0.75rem #BEBABA);
