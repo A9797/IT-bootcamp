@@ -1,174 +1,97 @@
 
-body{
-     background-size: cover;
-  background-repeat: no-repeat;
-    background-image: url('fotos/background.png');
-}
-a{
-    text-decoration: none;
-    min-height: 16px;
-    text-align: center;
-    padding: 14px;
-     text-transform:uppercase;
-    color: white;
-}
-a:hover{
-    color: black;
-}
-.row{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.row::after{
-    display: table;
-    clear: both;
-    content: "";
-}
-.col-1{width: 8.33%;}
-.col-2{width: 16.66%;}
-.col-3{width: 25%;}
-.col-4{width: 33.33%;}
-.col-5{width: 41.66%;}
-.col-6{width: 50%;}
-.col-7{width: 58.33%;}
-.col-8{width: 66.66%;}
-.col-9{width: 75%;}
-.col-10{width: 83.33%;}
-.col-11{width: 91.66%;}
-.col-12{width: 100%;}
-.bottontop{
-    display: block;
-    text-align: center;
-}
-button.loginbtn,.signin,.home{
-    font-size: 15px;
-    font-weight: 700;
-    color:white;
-    cursor:pointer;
-    background: transparent;
-    padding: 15px 60px;
-    border-radius: 10px;
-    display: block;
-    text-align: center; 
-}
-button.home{
-    margin-left: 50%;
-}
-button:hover{
-    color: black;
 
+p {color: white;}
+*{
+  margin: 0;
+  padding: 0;
+  font-sizing:'Poppins', sans-serif;
+  box-sizing: border-border-box;
 }
-#login-form{
-    display: none;
+.container{
+  padding: 50px;
+  width: 100%;
+  height: 300%;
+  background: lightblue;
+  display: flex;
+  align-items: ccenter;
+  justify-content: center;
 }
-.form-box{
-    width: 380px;
-    height:480px;
-    position: relative;
-    margin:2% auto;
-    background: rgba(0,0,0,0.3);
-    padding:10px;
-    overflow: hidden;
+.skills h2{
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  color: white;
+  font-size: 16px
 }
-.button-box{
-    width: 200px;
-    margin:35px auto;
-    position: relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
-    border-radius: 30px;
+.progress-bar{
+  background: white;
+  width: 600px;
+  height: 10px;
+  border-radius: 5px;
 }
-.button-box button {
-    color: white;
+.progress-bar div{
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
 }
-.toggle-btn{
-    padding: 10px 30px;
-    cursor:pointer;
-    background: transparent;
-    border:0;
-    outline:none;
-    position: relative;
+.progress-bar div span{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: white;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color:green;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
-#btn{
-    top:0;
-    left:0;
-    position: absolute;
-    width:110px;
-    height: 100%;
-    background: #F3c693;
-    border-radius: 30px;
-    transition: .5s;
+.html{
+  background: red;
+  animation: html 1s linear forwards;
 }
-.input-group-login{
-    top:150px;
-    position:absolute;
-    width:280px;
-    transition: .5s;
+.css{
+  background: blue;
+  animation: css 1s linear forwards;
 }
-.input-group-register{
-    top:120px;
-    position: absolute;
-    width: 280px;
-    transition: .5s;
+.Java{
+  background:green;
+  animation: Java 1s linear forwards;
 }
-.input-field{
-    width: 100%;
-    padding: 10px 0;
-    margin: 5px 0;
-    border-left:0;
-    border-top: 0;
-    border-right: 0;
-    border-bottom:1px solid #999;
-    outline: none;
-    background: transparent;
+.Python{
+  background: yellow ;
+  animation: Python 1s linear forwards;
 }
-.submit-btn{
-    width: 85%;
-    padding: 10px 30px;
-    cursor:pointer;
-    display:block;
-    margin:auto;
-    background: #F3c693;
-    border:0;
-    outline:none;
-    border-radius:30px;
+.html span{
+  border: 1px solid red;
 }
-.check-box{
-    margin: 30px 10px 34px 0;
+.css span{
+  border: 1px solid blue;
 }
-span{
-    color:white;
-    font-size:12px;
-    bottom:68px;
-    position:absolute;
+.Java span{
+  border: 1px solid green;
 }
-#login{
-    left:50px;
+.Python span{
+  border: 1px solid yellow;
 }
-#login input{
-    color:white;
-    font-size:15;
+@keyframes html{
+  100%{
+    width: 30%;
+  }
 }
-#register{
-    left:450px;
+@keyframes css{
+  100%{
+    width: 30%;
+  }
 }
-#registeer input{
-    color:white;
-    font-size: 15;
+@keyframes Java{
+  100%{
+    width: 10%;
+  }
 }
-::placeholder{
-    color:white;
-    opacity: 1;
-}
-::placeholder:hover{
-    color: black;
-}
-div.box{
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 36px 24px 40px 24px;
-    margin: 20px;
-    text-align: center;
-    filter:  drop-shadow(0 0 0.75rem #19184d);
+@keyframes Python{
+  100%{
+    width: 30%;
+  }
 }
